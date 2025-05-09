@@ -1,0 +1,138 @@
+body{
+background-image:url(tree3.jpg);
+background-repeat:no-repeat;
+background-position:center;
+
+}
+
+h1{
+ border:2px solid Tomato;
+border-width: 5px;
+ text-align: center;
+ color:red;
+}
+h2{
+border-style: dashed;
+background-color:rgb(126,138,16)}
+h3{color:orange;
+}
+p1{
+border-style:dotted dashed solid double;
+background-color: #00FFF0;
+color:purple;
+}
+/* this paragraph 2*/
+p2{
+color:navy;
+}
+div.container{
+border:1px solid red; 
+margin-left:100px;
+}
+p3.one{
+ margin-left:inherit;
+}
+p4.round{border:2px solid purple; border radius:15px;}
+h3.normal{ border:2px solid blue;}
+
+/* margins & external image calling*/
+.mydiv{
+padding:10px 20px 10px 20px;
+margin-top:100px;
+border-radius:4px;
+color:white;
+background-color:blue;
+text-align:center;}
+
+.myb1{padding:20px 40px 20px 40px;
+margin-top:50px;
+border-radius:4px;
+color:rgb(52, 137, 235);
+background-color:pink;
+text-align:center;}
+
+.myb2{padding:20px 40px 20px 40px;
+margin-top:100px;
+border-radius:4px;
+color:rgb(235, 52, 137);
+background-color:orange;
+text-align:center;}
+
+.myb3{padding:20px 40px 20px 40px;
+margin-top:100px;
+border-radius:4px;
+color:rgb(162, 235, 52);
+background-color:green;
+text-align:center;}
+
+.myb4{padding:20px 40px 20px 40px;
+margin-top:100px;
+border-radius:50%;
+color:rgb(235, 92, 152);
+background-color:voilet;
+text-align:center;}
+
+.container{
+height:300px;
+width:300px;
+background-color:yellow;
+
+}
+#hello {
+height:100px;
+width:500px;
+border: 1px solid purple;
+background-color:yellow;
+}
+#he {
+height:100px;
+width:500px;
+border: 1px solid red;
+background-color:pink;
+}
+
+/* animation-----*/
+.animation{height=500px;
+width=500px;
+text-item: center;
+background-color:red;
+animation: bgchange 2s infinite;
+}
+@keyframes bgchange{
+0%{background-color: red;}
+25%{background-color: yellow;}
+50%{background-color: blue;}
+75%{background-color: orange;}
+100%{background-color: purple;}
+}
+
+/*.car{
+height:500px;
+width:500px;
+text-item: center;
+background-image: url(car.jpg);
+animation: transform 2s infinite;
+}*/
+
+.transform1{height:500px;
+width:500px;
+text-item: center;
+background-image: url(car.jpg);
+background-repeat:no-repeat;
+animation: transform 2s infinite;
+}
+@keyframes transform{
+0%{transform:translate(100px);}
+25%{transform:translate(200px);}
+50%{transform:translate(300px);}
+100%{transform:translate(400px);}
+}
+.image
+{
+background-image:url("./image.jpg");
+/*background-color:red;*/
+height:300px;
+width:300px;
+background-position: center;
+background-repeat: repeat-x;
+}

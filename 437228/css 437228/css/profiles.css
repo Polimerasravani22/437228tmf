@@ -1,0 +1,40 @@
+body{
+background-color:lightpink;}
+h1{
+ border:black;
+border-width: 5px;
+ text-align: center;
+ color:blue;
+}
+
+#test{ height:100px;
+width:100px;
+margin:1000px;
+}
+#test img{ width:100%;
+}
+#test:hover{
+wigth:1800px;
+height:1800px;
+}
+.test-btn{
+width:100px;
+height:100px;
+position:relative;
+border-radius:10px;
+}
+.test-btn:active{
+background-color:red;}
+
+.person{
+margin : auto;
+width=300px;
+display: block;
+border-radius: 50%;
+}
+.upicture{
+display: block;
+border-radius: 50%;
+margin: auto;
+}
+
